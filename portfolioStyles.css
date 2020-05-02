@@ -20,8 +20,7 @@ html {
   height: 100%;
 }
 
-.intro {
-  background: url("Not committed/images/blackTable.jpg");
+.bg {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
