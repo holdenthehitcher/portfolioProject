@@ -13,3 +13,17 @@ li {
   font-family: "Caveat", cursive;
   font-size: 23px;
 }
+
+body,
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.intro {
+  background: url("Not committed/images/blackTable.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
