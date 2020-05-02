@@ -26,3 +26,57 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fa {
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    border-radius: 70%;
+}
+
+.btn.btn-social-icon {
+    width: 60px;
+    height: 50px;
+    padding: 8px;
+    margin: 1px;
+}
+
+.btn-facebook {
+  border: 1px solid #3b579d;
+  color: #3b579d;
+}
+
+.btn-facebook:hover {
+  background: #3b579d;
+  color: #ffffff;
+}
+
+.btn-youtube {
+  border: 1px solid #e52d27;
+  color: #e52d27;
+}
+
+.btn-youtube:hover {
+  background: #e52d27;
+  color: #ffffff;
+}
+
+.btn-twitter {
+  border: 1px solid #2caae1;
+  color: #2caae1;
+}
+
+.btn-twitter:hover {
+  background: #2caae1;
+  color: #ffffff;
+}
+
+.btn-instagram {
+  border: 1px solid #dc4a38;
+  color: #dc4a38;
+}
+
+.btn-instagram:hover {
+  background: #e52d27;
+  color: #ffffff;
+}
