@@ -3,15 +3,21 @@
   background: transparent;
 }
 
+.navbar {
+    background-image: linear-gradient( to right, rgb(19, 18, 18), rgb(112, 7, 112));
+}
+
 h1 {
   font-family: "Dancing Script", cursive;
   font-size: 37px;
+  color: #33ac29;
 }
 
 
 li > a {
   font-family: "Caveat", cursive;
-  font-size: 23px;
+  font-size: 25px;
+  color: #bda520;
 }
 
 body,
@@ -83,4 +89,9 @@ html {
 .btn-instagram:hover {
   background: #e52d27;
   color: #ffffff;
+}
+
+footer{
+    background-color: beige;
+    background-position: bottom: 100%;
 }

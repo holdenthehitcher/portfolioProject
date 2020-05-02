@@ -17,7 +17,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="portfolioStyles.css" />
+    
 
 
     <title>Home</title>
@@ -26,15 +28,15 @@
   <body>
     <!--insert parallax mirror in reverse here + images-->
 
-    <nav class="navbar navbar-expand-md navbar-light sticky-top fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
       <div class="container">
-        <a href="#" class="navbar-logo"> <h1>Holden's Catering Company</h1> </a
+        <a class="navbar-brand" href="#"> <h1>Holden's Catering Company</h1> </a
         ><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#holdenNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="holdenNavbar">
-          <ul class="navbar-nav my-auto ml-4">
+          <ul class="nav my-auto ml-4">
             <li class="nav-item active">
               <a href="#" class="nav-link active">Home</a>
             </li>
@@ -70,18 +72,18 @@
       data-image-src="Not committed/images/islandcanoe.jpg"
     ></section>
 
-    <footer class="site-footer" style="margin-top: 15px;">
+    <footer class="site-footer">
       <div class="container my-auto;">
         <div class="row">
-          <div class="col-4 col-md-5 text">
+          <div class="col-4 col-md-5 text" style="margin-top: 15px;">
             <h5>How to reach us</h5>
-            <p><i>Address:</i> </br> 1111 Food way</br>Kailua, Hawai'i 94521</p></br>
+            <p><i>Address:</i> </br> 18 Kainehe St.</br>Kailua, Hawai'i 96734</p></br>
             <p><i>Phone:</i></br> 808-432-8891</p></br>
             <p><i>Hours of Operation:</i></br> Monday - Saturday / 10:00am - 6:00pm</p></br>
           </div>
               <!--social media + font awesome-->
           <div class="col-3 col-md-3">
-            <ul style="list-style-type:none; margin-top: 20px;">
+            <ul style="list-style-type:none; margin-top: 35px;">
               <li><a type="button" href="#" class="btn btn-social-icon btn-youtube"><i class="fa fa-youtube"></i></a></li>
               <li><a type="button" href="#" class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a></li>
               <li><a type="button" href="#" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a></li>
@@ -89,7 +91,7 @@
             </ul>
           </div>
           <!-- careers page -->
-          <div class="col-4 col-md-3 text" style="margin-top:70px;">
+          <div class="col-4 col-md-3 text" style="margin-top:85px;">
             <h5>Join our Crew!</h5>
             <p>Visit us at our <a href="">careers</a> page for more information.</p>
           </div>
@@ -100,23 +102,36 @@
 
 
     <!--on page load scripts-->
+    
+    <script src="portfolioJS.js"></script>
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  <script>
+    $(window).scroll(function(){
+      $(".navbar").css("opacity", 2.7 - $(window).scrollTop() / 250);
+    });
+    </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  
   </body>
 </html>
