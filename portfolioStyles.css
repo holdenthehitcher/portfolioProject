@@ -1,0 +1,15 @@
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 37px;
+}
+
+a,
+li {
+  font-family: "Caveat", cursive;
+  font-size: 23px;
+}
