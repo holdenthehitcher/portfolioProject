@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    background-image: linear-gradient( to right, rgb(19, 18, 18), rgb(112, 7, 112));
+  background-image: linear-gradient(to right, rgb(19, 18, 18), rgb(112, 7, 112));
 }
 
 h1 {
@@ -12,7 +12,6 @@ h1 {
   font-size: 37px;
   color: #33ac29;
 }
-
 
 li > a {
   font-family: "Caveat", cursive;
@@ -26,8 +25,9 @@ html {
   height: 100%;
 }
 
+
 .text {
-    text-align: center;
+  text-align: center;
 }
 
 .bg {
@@ -38,17 +38,17 @@ html {
 }
 
 .fa {
-    font-size: 30px;
-    width: 40px;
-    text-align: center;
-    border-radius: 70%;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  border-radius: 70%;
 }
 
 .btn.btn-social-icon {
-    width: 60px;
-    height: 50px;
-    padding: 8px;
-    margin: 1px;
+  width: 60px;
+  height: 50px;
+  padding: 8px;
+  margin: 1px;
 }
 
 .btn-facebook {
@@ -91,7 +91,8 @@ html {
   color: #ffffff;
 }
 
-footer{
-    background-color: beige;
-    background-position: bottom: 100%;
+footer {
+  background-color: beige;
+  background-position: bottom 100%;
 }
+
