@@ -5,27 +5,33 @@
 .navbar {
   background-image: linear-gradient(to right, #131212, #700770); }
 
-h1, h5 {
+h1,
+h5 {
   font-family: "Dancing Script", cursive;
   font-size: 37px;
   color: #33ac29; }
 
-li > a, p {
+li > a,
+p {
   font-family: "Caveat", cursive;
   font-size: 25px;
-<<<<<<< HEAD
-  color: #f7d514; }
-=======
   color: #bda520; }
->>>>>>> master
 
 body,
 html {
   scroll-behavior: smooth;
   height: 100%; }
 
-#beverageImage > h5, p {
-  background-color: rgba(255, 254, 253, 0.767); }
+a {
+  color: #33ac29; }
+  a:hover {
+    color: #bda520;
+    opacity: 0.7;
+    text-decoration: none; }
+
+#beverageImage > h5,
+p {
+  background-color: rgba(255, 254, 253, 0.829); }
 
 .text {
   text-align: center; }
@@ -83,12 +89,11 @@ html {
 footer {
   background-color: beige;
   background-position: bottom 100%; }
-<<<<<<< HEAD
-=======
 
-.row-footer .address, .row-footer .social, .row-footer .careers {
+.row-footer .address,
+.row-footer .social,
+.row-footer .careers {
   background-color: rgba(0, 0, 0, 0); }
->>>>>>> master
 
 @media (min-width: 576px) {
   .card {
