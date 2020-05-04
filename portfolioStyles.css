@@ -13,7 +13,11 @@ h1, h5 {
 li > a, p {
   font-family: "Caveat", cursive;
   font-size: 25px;
+<<<<<<< HEAD
   color: #f7d514; }
+=======
+  color: #bda520; }
+>>>>>>> master
 
 body,
 html {
@@ -79,6 +83,12 @@ html {
 footer {
   background-color: beige;
   background-position: bottom 100%; }
+<<<<<<< HEAD
+=======
+
+.row-footer .address, .row-footer .social, .row-footer .careers {
+  background-color: rgba(0, 0, 0, 0); }
+>>>>>>> master
 
 @media (min-width: 576px) {
   .card {

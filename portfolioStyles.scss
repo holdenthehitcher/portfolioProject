@@ -1,3 +1,6 @@
+$main-color: #33ac29;
+$secondary-color:#bda520;
+$color-check: #ffffff;
 
 
 .parallax-window {
@@ -12,13 +15,21 @@
   h1, h5 {
     font-family: "Dancing Script", cursive;
     font-size: 37px;
+<<<<<<< HEAD
     color: #33ac29;
+=======
+    color: $main-color;
+>>>>>>> master
   }
   
   li > a, p{
     font-family: "Caveat", cursive;
     font-size: 25px;
+<<<<<<< HEAD
     color: #f7d514;
+=======
+    color: $secondary-color;
+>>>>>>> master
   }
   
   body,
@@ -102,8 +113,19 @@
     background-position: bottom 100%;
   }
   
+<<<<<<< HEAD
   
   
+=======
+  .row-footer{
+      .address, .social, .careers{
+          background-color: desaturate($color: #00000000, $amount: 0);
+      }
+  }
+  
+
+  //media viewport queries
+>>>>>>> master
   @media (min-width: 576px) {
     .card {
       width: 500px;
@@ -158,4 +180,9 @@
     .carousel-control-prev {
       transform: translateX(135%);
     }
+<<<<<<< HEAD
   }
+=======
+  }
+
+>>>>>>> master
