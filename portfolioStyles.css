@@ -1,159 +1,121 @@
 .parallax-window {
   min-height: 400px;
-  background: transparent;
-}
+  background: transparent; }
 
 .navbar {
-  background-image: linear-gradient(to right, rgb(19, 18, 18), rgb(112, 7, 112));
-}
+  background-image: linear-gradient(to right, #131212, #700770); }
 
 h1, h5 {
   font-family: "Dancing Script", cursive;
   font-size: 37px;
-  color: #33ac29;
-}
+  color: #33ac29; }
 
-li > a, p{
+li > a, p {
   font-family: "Caveat", cursive;
   font-size: 25px;
-  color: #bda520;
-}
+  color: #bda520; }
 
 body,
 html {
   scroll-behavior: smooth;
-  height: 100%;
-}
+  height: 100%; }
 
 #beverageImage > h5, p {
-  background-color: rgba(255, 254, 253, 0.767);
-} 
-
+  background-color: rgba(255, 254, 253, 0.767); }
 
 .text {
-  text-align: center;
-}
+  text-align: center; }
 
 .bg {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .fa {
   font-size: 30px;
   width: 40px;
   text-align: center;
-  border-radius: 70%;
-}
+  border-radius: 70%; }
 
 .btn.btn-social-icon {
   width: 60px;
   height: 50px;
   padding: 8px;
-  margin: 1px;
-}
+  margin: 1px; }
 
 .btn-facebook {
   border: 1px solid #3b579d;
-  color: #3b579d;
-}
+  color: #3b579d; }
 
 .btn-facebook:hover {
   background: #3b579d;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .btn-youtube {
   border: 1px solid #e52d27;
-  color: #e52d27;
-}
+  color: #e52d27; }
 
 .btn-youtube:hover {
   background: #e52d27;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .btn-twitter {
   border: 1px solid #2caae1;
-  color: #2caae1;
-}
+  color: #2caae1; }
 
 .btn-twitter:hover {
   background: #2caae1;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .btn-instagram {
   border: 1px solid #dc4a38;
-  color: #dc4a38;
-}
+  color: #dc4a38; }
 
 .btn-instagram:hover {
   background: #e52d27;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 footer {
   background-color: beige;
-  background-position: bottom 100%;
-}
+  background-position: bottom 100%; }
 
-
+.row-footer .address, .row-footer .social, .row-footer .careers {
+  background-color: rgba(0, 0, 0, 0); }
 
 @media (min-width: 576px) {
   .card {
     width: 500px;
-    height: 300px;
-  }
+    height: 300px; }
   .carousel-control-next {
-    transform: translateX(-10%);
-  }
+    transform: translateX(-10%); }
   .carousel-control-prev {
-    transform: translateX(10%);
-  }
-}
-
+    transform: translateX(10%); } }
 
 @media (min-width: 768px) {
   .card {
     width: 500px;
-    height: 300px;
-  }
+    height: 300px; }
   .carousel-control-next {
-    transform: translateX(-93%);
-  }
+    transform: translateX(-93%); }
   .carousel-control-prev {
-    transform: translateX(93%);
-  }
-}
-
+    transform: translateX(93%); } }
 
 @media (min-width: 992px) {
   .card {
-    width:500px;
-    height: 300px;
-  }
+    width: 500px;
+    height: 300px; }
   .carousel-control-next {
-    transform: translateX(-152%);
-  }
+    transform: translateX(-152%); }
   .carousel-control-prev {
-    transform: translateX(152%);
-  }
-}
-
+    transform: translateX(152%); } }
 
 @media (min-width: 1200px) {
   .card {
     margin-top: 5px;
     width: 665px;
-    height: 350px;
-  }
+    height: 350px; }
   .carousel-control-next {
-    transform: translateX(-135%);
-  }
+    transform: translateX(-135%); }
   .carousel-control-prev {
-    transform: translateX(135%);
-  }
-}
+    transform: translateX(135%); } }
