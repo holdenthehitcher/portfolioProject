@@ -19,7 +19,8 @@ h5 {
 }
 
 li > a,
-p {
+p,
+#eventTypes {
   font-family: "Caveat", cursive;
   font-size: 25px;
   color: $secondary-color;
@@ -35,14 +36,28 @@ a {
   color: $main-color;
   &:hover {
     color: $secondary-color;
-    opacity: 0.7;
     text-decoration: none;
+    opacity: .8;
   }
 }
 
-#beverageImage > h5,
-p {
-  background-color: rgba(255, 254, 253, 0.829);
+.pageLink{
+    opacity: .8;
+}
+
+
+#beverageImage {
+  h5,
+  p {
+    background-color: rgba(255, 254, 253, 0.829);
+  }
+}
+
+#eventsImage {
+    opacity: .95;
+    &:hover{
+        opacity:1
+    }
 }
 
 .text {
@@ -115,15 +130,21 @@ footer {
   background-position: bottom 100%;
 }
 
-.row-footer {
-  .address,
-  .social,
-  .careers {
-    background-color: desaturate($color: #00000000, $amount: 0);
+
+//media viewport queries
+@media (min-width: 0px) {
+  .card {
+    width: 500px;
+    height: 300px;
+  }
+  .carousel-control-next {
+    transform: translateX(-10%);
+  }
+  .carousel-control-prev {
+    transform: translateX(10%);
   }
 }
 
-//media viewport queries
 @media (min-width: 576px) {
   .card {
     width: 500px;
