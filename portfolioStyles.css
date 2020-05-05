@@ -16,7 +16,7 @@ p,
 #eventTypes {
   font-family: "Caveat", cursive;
   font-size: 25px;
-  color: #bda520; }
+  color: #cfb72c; }
 
 body,
 html {
@@ -26,7 +26,7 @@ html {
 a {
   color: #33ac29; }
   a:hover {
-    color: #bda520;
+    color: #cfb72c;
     text-decoration: none;
     opacity: .8; }
 
@@ -41,6 +41,9 @@ a {
   opacity: .95; }
   #eventsImage:hover {
     opacity: 1; }
+
+#aboutText {
+  background-color: rgba(2, 2, 2, 0.527); }
 
 .text {
   text-align: center; }

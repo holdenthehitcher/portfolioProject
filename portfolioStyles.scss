@@ -1,5 +1,5 @@
 $main-color: #33ac29;
-$secondary-color: #bda520;
+$secondary-color: #cfb72c;
 $color-check: #ffffff;
 
 .parallax-window {
@@ -58,6 +58,10 @@ a {
     &:hover{
         opacity:1
     }
+}
+
+#aboutText {
+    background-color: rgba(2, 2, 2, 0.527)
 }
 
 .text {
