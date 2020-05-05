@@ -1,10 +1,33 @@
 $main-color: #33ac29;
-$secondary-color: #cfb72c;
+$secondary-color: #bda520;
 $color-check: #ffffff;
 
 .parallax-window {
-  min-height: 400px;
+  min-height: 780px;
+  max-height: 780px;
   background: transparent;
+}
+
+#menusBg, #aboutBg {
+    /* The image used */
+    /* Set a specific height */
+    height: 780px;
+    width: 100vw;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#menusBg {
+    background-image: url("Not committed/images/blackSteak.jpg")
+}
+
+#aboutBg {
+    background-image: url("Not committed/images/islandcanoe.jpg");
+  
 }
 
 .navbar {
@@ -29,7 +52,7 @@ p,
 body,
 html {
   scroll-behavior: smooth;
-  height: 100%;
+
 }
 
 a {
@@ -60,8 +83,12 @@ a {
     }
 }
 
+.jumboHome {
+    height: 40%;
+}
+
 #aboutText {
-    background-color: rgba(2, 2, 2, 0.527)
+    background-color: rgba(66, 12, 12, 0.527)
 }
 
 .text {
@@ -74,6 +101,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 .fa {
   font-size: 30px;

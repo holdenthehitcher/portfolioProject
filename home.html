@@ -108,35 +108,47 @@
       </div>
     </header>
 
-    <section
-      id="menusHome"
-      class="bg container-fluid fullwidth parallax-window"
+    <div
+      id="menusBg"
+      class="bg container-fluid fullwidth parallax"
       data-parallax="scroll"
       data-image-src="Not committed/images/blackSteak.jpg"
     >
-      <div class="row row-content h-100 align-items-center">
-        <div class="col-10 col-sm-8 col-lg-5 mx-auto my-auto rounded">
-          <div class="jumbotron" id="reserveHeader">
-            <h2 class="mb-0">
-              </h2>
+      <div class="row">
+        <div class="jumboHome col col-md-8 col-lg-7 col-xl-6">
+          <div class="jumbotron jumbotron-fluid rounded-lg" id="reserveHeader">
+            <h1 class="display-4">Reservations</h2>
+            <p class="lead">Make a reservation with us today!</p>
+            <hr class="my-4">
+            <p>Check our calendar of events to see our availability</p>
+            <a class="btn btn-success btn-lg" href="reserve.html" role="button">Reservations</a>
           </div>
         </div>
       </div>
-    </section>
+      <div class="row">
+        <div class="jumboHome col col-md-8 col-lg-7 col-xl-6">
+          <div class="jumbotron jumbotron-fluid rounded-lg">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <section
-      id="reserveHome"
-      class="bg container-fluid fullwidth parallax-window"
+    <div
+      id="aboutBg"
+      class="bg container-fluid fullwidth parallax"
       data-parallax="scroll"
       data-image-src="Not committed/images/islandcanoe.jpg"
     >
-    <div class="row row-content h-100 align-items-center" >
+    <div id="aboutBg" class="row row-content h-100 align-items-center" >
       <div class="col-10 col-sm-8 col-lg-5 mx-auto p-4 rounded" id="aboutText">
         <h1>About Holden's Catering Co.</h1>
         <p> Built brick-by-brick, our company offers exemplary services beyond the scope of ordinary. Elegance embodied by quality in all aspects of the industry reflects our goal of providing unforgettable occassions. Eye appealing presentaion & unmatched flavor profiles streamlined in flawless fashion characterizes our mission: to match quality of experience to the magnitidue of each significant gathering of individuals with common intentions in mind.</p>
       </div>
     </div>
-  </section>
+  </div>
 
     <footer class="site-footer">
       <div class="container my-auto;">
@@ -164,6 +176,7 @@
         </div>
       </div>
     </footer>
+    
     <!--scripts-->
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
