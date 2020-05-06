@@ -7,7 +7,7 @@
   /* The image used */
   /* Set a specific height */
   height: 780px;
-  width: 100vw;
+  width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -70,9 +70,20 @@ a {
 
 .bg {
   height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.card {
+  max-width: 100%; }
+
+.card-text {
+  word-wrap: break-word; }
+
+footer {
+  background-color: beige;
+  background-position: bottom 100%; }
 
 .fa {
   font-size: 30px;
@@ -118,10 +129,6 @@ a {
   background: #e52d27;
   color: #ffffff; }
 
-footer {
-  background-color: beige;
-  background-position: bottom 100%; }
-
 @media (min-width: 0px) {
   .card {
     width: 500px;
@@ -129,7 +136,10 @@ footer {
   .carousel-control-next {
     transform: translateX(-10%); }
   .carousel-control-prev {
-    transform: translateX(10%); } }
+    transform: translateX(10%); }
+  #menuHome {
+    min-height: 800px;
+    max-height: 800px; } }
 
 @media (min-width: 576px) {
   .card {
@@ -138,7 +148,9 @@ footer {
   .carousel-control-next {
     transform: translateX(-10%); }
   .carousel-control-prev {
-    transform: translateX(10%); } }
+    transform: translateX(10%); }
+  .hideXs {
+    display: none; } }
 
 @media (min-width: 768px) {
   .card {
