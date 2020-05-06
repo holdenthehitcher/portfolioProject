@@ -129,19 +129,7 @@ footer {
   background: #e52d27;
   color: #ffffff; }
 
-@media (min-width: 0px) {
-  .card {
-    width: 500px;
-    height: 300px; }
-  .carousel-control-next {
-    transform: translateX(-10%); }
-  .carousel-control-prev {
-    transform: translateX(10%); }
-  #menuHome {
-    min-height: 800px;
-    max-height: 800px; } }
-
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .card {
     width: 500px;
     height: 300px; }
@@ -150,9 +138,15 @@ footer {
   .carousel-control-prev {
     transform: translateX(10%); }
   .hideXs {
+    display: none; }
+  .card-columns {
     display: none; } }
 
-@media (min-width: 768px) {
+@media (min-width: 577px) and (max-width: 767px) {
+  .hideXs {
+    display: none; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
   .card {
     width: 500px;
     height: 300px; }
@@ -161,7 +155,7 @@ footer {
   .carousel-control-prev {
     transform: translateX(93%); } }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .card {
     width: 500px;
     height: 300px; }
