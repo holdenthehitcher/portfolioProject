@@ -81,6 +81,16 @@ a {
 .card-text {
   word-wrap: break-word; }
 
+.carouselXs {
+  width: 500px;
+  height: 300px; }
+
+.menuPhotos {
+  height: 400px; }
+
+.carouselButton {
+  height: 400px; }
+
 footer {
   background-color: beige;
   background-position: bottom 100%; }
@@ -130,7 +140,7 @@ footer {
   color: #ffffff; }
 
 @media (max-width: 576px) {
-  .card {
+  .carousel-card {
     width: 500px;
     height: 300px; }
   .carousel-control-next {
@@ -147,7 +157,7 @@ footer {
     display: none; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .card {
+  .carousel-card {
     width: 500px;
     height: 300px; }
   .carousel-control-next {
@@ -156,7 +166,7 @@ footer {
     transform: translateX(93%); } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .card {
+  .carousel-card {
     width: 500px;
     height: 300px; }
   .carousel-control-next {
@@ -165,7 +175,7 @@ footer {
     transform: translateX(152%); } }
 
 @media (min-width: 1200px) {
-  .card {
+  .carousel-card {
     margin-top: 5px;
     width: 665px;
     height: 350px; }
