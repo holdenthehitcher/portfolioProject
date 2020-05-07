@@ -92,6 +92,17 @@ a {
 .carouselButton {
   height: 400px; }
 
+.no-gutters img:hover {
+  opacity: .7; }
+
+.no-gutters-row {
+  align-items: center;
+  justify-content: center; }
+
+.modalImg {
+  height: 315px;
+  width: 450px; }
+
 footer {
   background-color: beige;
   background-position: bottom 100%; }
@@ -140,17 +151,13 @@ footer {
   background: #e52d27;
   color: #ffffff; }
 
-.no-gutters-row {
-  align-items: center;
-  justify-content: center; }
-
 @media (max-width: 576px) {
   .carousel-card {
     width: 500px;
     height: 300px; }
-  .carousel-control-next {
+  .carousel-home-next {
     transform: translateX(-10%); }
-  .carousel-control-prev {
+  .carousel-home-prev {
     transform: translateX(10%); }
   .hideXs {
     display: none; }
@@ -169,10 +176,13 @@ footer {
     padding: 0;
     width: 390px; }
   #reserveBg {
-    min-height: 1300px;
-    max-height: 1300px; } }
+    min-height: 1400px;
+    max-height: 1400px; } }
 
 @media (min-width: 577px) and (max-width: 767px) {
+  .carousel-card {
+    width: 500px;
+    height: 300px; }
   .hideXs {
     display: none; }
   #menuHome {
@@ -195,9 +205,9 @@ footer {
   .carousel-card {
     width: 500px;
     height: 300px; }
-  .carousel-control-next {
+  .carousel-home-next {
     transform: translateX(-93%); }
-  .carousel-control-prev {
+  .carousel-home-prev {
     transform: translateX(93%); }
   .lightboxImgT {
     height: 245px;
@@ -215,9 +225,9 @@ footer {
   .carousel-card {
     width: 500px;
     height: 300px; }
-  .carousel-control-next {
+  .carousel-home-next {
     transform: translateX(-152%); }
-  .carousel-control-prev {
+  .carousel-home-prev {
     transform: translateX(152%); }
   .lightboxImgT {
     height: 315px;
@@ -236,16 +246,16 @@ footer {
     margin-top: 5px;
     width: 665px;
     height: 350px; }
-  .carousel-control-next {
+  .carousel-home-next {
     transform: translateX(-135%); }
-  .carousel-control-prev {
+  .carousel-home-prev {
     transform: translateX(135%); }
   .lightboxImgT {
-    height: 350px;
+    height: 340px;
     width: 500px;
-    margin-top: 40px; }
+    margin-top: 20px; }
   .lightboxImgB {
-    height: 350px;
+    height: 340px;
     width: 500px; }
   .no-gutters {
     margin: 0;

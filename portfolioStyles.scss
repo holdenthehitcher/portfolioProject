@@ -121,6 +121,25 @@ a {
   height: 400px;
 }
 
+.no-gutters {
+  img {
+   &:hover {
+    opacity: .7;
+   }
+  }
+}
+
+.no-gutters-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.modalImg {
+  height: 315px;
+  width: 450px;
+}
+
+
 
 ///////////// insert new style above ///////////////
 
@@ -183,22 +202,18 @@ footer {
   color: #ffffff;
 }
 
-.no-gutters-row {
-  align-items: center;
-  justify-content: center;
-}
 
 //media viewport queries
 
-@media (max-width: 576px) {
+@media (max-width: 576px) { //xs
   .carousel-card {
     width: 500px;
     height: 300px;
   }
-  .carousel-control-next {
+  .carousel-home-next {
     transform: translateX(-10%);
   }
-  .carousel-control-prev {
+  .carousel-home-prev {
     transform: translateX(10%);
   }
 
@@ -228,13 +243,17 @@ footer {
   }
 
   #reserveBg {
-    min-height: 1300px;
-    max-height: 1300px; 
+    min-height: 1400px;
+    max-height: 1400px; 
   }
 
 }
 
-@media (min-width: 577px) and (max-width: 767px) {
+@media (min-width: 577px) and (max-width: 767px) { //sm
+  .carousel-card {
+    width: 500px;
+    height: 300px;
+  }
   .hideXs {
     display: none;
   }
@@ -262,15 +281,15 @@ footer {
 
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) { //md
   .carousel-card {
     width: 500px;
     height: 300px;
   }
-  .carousel-control-next {
+  .carousel-home-next {
     transform: translateX(-93%);
   }
-  .carousel-control-prev {
+  .carousel-home-prev {
     transform: translateX(93%);
   }
   .lightboxImgT {
@@ -292,15 +311,15 @@ footer {
   
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) { //lg
   .carousel-card {
     width: 500px;
     height: 300px;
   }
-  .carousel-control-next {
+  .carousel-home-next {
     transform: translateX(-152%);
   }
-  .carousel-control-prev {
+  .carousel-home-prev {
     transform: translateX(152%);
   }
   .lightboxImgT {
@@ -322,26 +341,26 @@ footer {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) { //xl
   .carousel-card {
     margin-top: 5px;
     width: 665px;
     height: 350px;
   }
-  .carousel-control-next {
+  .carousel-home-next {
     transform: translateX(-135%);
   }
-  .carousel-control-prev {
+  .carousel-home-prev {
     transform: translateX(135%);
   }
   .lightboxImgT {
-    height: 350px;
+    height: 340px;
     width: 500px;
-    margin-top: 40px;
+    margin-top: 20px;
     
   }
   .lightboxImgB {
-    height: 350px;
+    height: 340px;
     width: 500px;
   }
 
@@ -350,4 +369,7 @@ footer {
     padding: 0;
     width: 500px;
   }
+
+  
+  
 }
