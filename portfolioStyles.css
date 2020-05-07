@@ -103,6 +103,10 @@ a {
   height: 315px;
   width: 450px; }
 
+th img {
+  height: 400px;
+  width: 300px; }
+
 footer {
   background-color: beige;
   background-position: bottom 100%; }
