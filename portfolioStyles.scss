@@ -121,6 +121,7 @@ a {
   height: 400px;
 }
 
+
 ///////////// insert new style above ///////////////
 
 footer {
@@ -212,6 +213,7 @@ footer {
     height: 273px;
     width: 390px;
     margin-top: 35px;
+    
   }
   .lightboxImgB {
     height: 273px;
@@ -227,34 +229,37 @@ footer {
 
   #reserveBg {
     min-height: 1300px;
-    max-height: 1300px;
+    max-height: 1300px; 
   }
+
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
   .hideXs {
     display: none;
   }
-  .parallax-window {
+  #menuHome {
     min-height: 500px;
     max-height: 300px;
     background: transparent;
   }
   .lightboxImgT {
-    height: 220px;
-    width: 315px;
-    margin-top: 20px;
+    height: 196px;
+    width: 280px; 
+    margin-top: 70px;
+    
   }
   .lightboxImgB {
-    height: 220px;
-    width: 315px;
+    height: 196px;
+    width: 280px; 
   }
 
   .no-gutters {
     margin: 0;
     padding: 0;
-    width: 315px;
+    width: 280px; 
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -272,6 +277,7 @@ footer {
     height: 245px;
     width: 350px;
     margin-top: 80px;
+    
   }
   .lightboxImgB {
     height: 245px;
@@ -283,6 +289,7 @@ footer {
     padding: 0;
     width: 350px;
   }
+  
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -300,6 +307,7 @@ footer {
     height: 315px;
     width: 450px;
     margin-top: 60px;
+    
   }
   .lightboxImgB {
     height: 315px;
@@ -312,6 +320,7 @@ footer {
     width: 450px;
   }
 }
+
 
 @media (min-width: 1200px) {
   .carousel-card {
@@ -329,6 +338,7 @@ footer {
     height: 350px;
     width: 500px;
     margin-top: 40px;
+    
   }
   .lightboxImgB {
     height: 350px;
