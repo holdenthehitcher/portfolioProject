@@ -31,10 +31,13 @@ h5 {
   color: #33ac29; }
 
 li > a,
-p,
 #eventTypes {
   font-family: "Caveat", cursive;
   font-size: 25px;
+  color: #bda520; }
+
+.jumbotron p {
+  font-family: 'Courgette', cursive;
   color: #bda520; }
 
 body,

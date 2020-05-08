@@ -1,6 +1,6 @@
 $main-color: #33ac29;
 $secondary-color: #bda520;
-$color-check: #ffffff;
+
 
 .parallax-window {
   min-height: 780px;
@@ -41,12 +41,20 @@ h5 {
 }
 
 li > a,
-p,
 #eventTypes {
   font-family: "Caveat", cursive;
   font-size: 25px;
   color: $secondary-color;
 }
+
+.jumbotron {
+  p {
+    font-family: 'Courgette', cursive;
+    color: $secondary-color;
+  }
+}
+
+
 
 body,
 html {
