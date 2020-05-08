@@ -59,7 +59,7 @@
       data-image-src="Not committed/images/paintingLemons.jpg"
     >
       <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6" id="tableOverflow">
           <table class="table table-dark mt-2 rounded-bottom">
             <thead>
               <tr>
@@ -98,10 +98,24 @@
           </table>
         </div>
         <div class="col-12 col-lg-6">
-          <form action="">
-
+          <form action="" class="validation" novalidate>
+            <div class="form-group">
+            <h4>Reservation Form</h4>
+            <div class="form-group form-row">
+              <div class="col">
+                <label for="nameInput">Name</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <label for="phoneInput">Telephone</label>
+                <input type="text" class="form-control" id="phoneInput" placeholder="(xxx-xxx-xxxx) " required>
+              </div>
+              <div class="col">
+                <label for="emailInput">Email</label>
+                <input type="text" class="form-control" id="emailInput" placeholder="ex. name@gmail.com" required>
+              </div>
+            </div>
           </form>
-
         </div>
       </div>
     </section>

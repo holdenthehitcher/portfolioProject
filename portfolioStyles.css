@@ -107,6 +107,9 @@ th img {
   height: 400px;
   width: 300px; }
 
+#tableOverflow {
+  overflow-y: auto; }
+
 footer {
   background-color: beige;
   background-position: bottom 100%; }
