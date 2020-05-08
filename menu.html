@@ -18,13 +18,15 @@
     <link rel="stylesheet" href="portfolioStyles.css" />
 
     <title>Menu</title>
+    
   </head>
 
   <body>
     <nav class="navbar navbar-expand-md navbar-light sticky-top">
       <div class="container">
         <a href="home.html" class="navbar-brand"> <h1>Holden's Catering Company</h1> </a
-        ><button class="navbar-toggler" type ="button" data-toggle="collapse" data-target="#holdenNavbar">
+        >
+        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#navModal" aria-expanded="false">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -49,6 +51,35 @@
         </div>
       </div>
     </nav>
+
+    <div class="modal fade" id="navModal" tabindex="-1" role="dialog" aria-labelledby="navModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <ul class="navOverlay">
+              <li class="">
+                <a href="home.html">Home</a>
+              </li>
+              <li class="">
+                <a href="#" data-dismiss="modal">Menu</a>
+              </li>
+              <li class="">
+                <a href="gallery.html">Gallery</a>
+              </li>
+              <li class="">
+                <a href="reserve.html">Reserve</a>
+              </li>
+              <li class="">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>      
+        </div>
+      </div>
+    </div>
 
     <div
     id="menuHome"
@@ -175,7 +206,8 @@
         </div>
       </div>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -191,8 +223,11 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script>
+      function red() {
+        console.log = red;
+      }
+    </script>
+    
   </body>
 </html>
