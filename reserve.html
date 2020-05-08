@@ -114,6 +114,43 @@
                 <label for="emailInput">Email</label>
                 <input type="text" class="form-control" id="emailInput" placeholder="ex. name@gmail.com" required>
               </div>
+              <div class="col">
+                <label for="calendarInput">Event Date</label>
+                <input type="date" class="form-control" id="calendarInput" paceholder="">
+              </div>
+              <div class="col">
+                <label for="timeInput">Time-Frame</label>
+                <select class="form-control" id="timeInput">
+                  <option value="">Breakfast/Brunch (8:00am/10:30am - 1:30pm)</option>
+                  <option value="">Lunch (12:00pm - 2:00pm)</option>
+                  <option value="">Dinner (4:00pm - 10:00pm)</option>
+                  <option value="">All-Day Events (5+ hours)</option>
+                  <option value=""> Other </option>
+                </select>
+                <div class="col">
+                  <div class="form-check">
+                    <label for="eventType">
+                      Event Type
+                    </label>
+                    <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio1" value="option1" checked>
+                    <label for="typeRadio1" class="form-check-label">
+                      Private Event
+                    </label>
+                    <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio2" value="option2">
+                    <label for="typeRadio2" class="form-check-label">
+                      Corporate Function
+                    </label>
+                    <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio3" value="option3">
+                    <label for="typeRadio3" class="form-check-label">
+                      Wedding
+                    </label>
+                    <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio4" value="option4">
+                    <label for="typeRadio4" class="form-check-label">
+                      Other Event
+                    </label>
+                  </div>
+                </div>
+              </div>
             </div>
           </form>
         </div>
