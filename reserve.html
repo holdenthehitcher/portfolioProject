@@ -29,7 +29,6 @@
         ><button class="navbar-toggler" type ="button" data-toggle="collapse" data-target="#holdenNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="holdenNavbar">
           <ul class="nav justify-content-center my-auto">
             <li class="nav-item">
@@ -59,7 +58,7 @@
       data-image-src="Not committed/images/paintingLemons.jpg"
     >
       <div class="row">
-        <div class="col-12 col-lg-6" id="tableOverflow">
+        <div class="col-12 col-md-6" id="tableOverflow">
           <table class="table table-dark mt-2 rounded-bottom">
             <thead>
               <tr>
@@ -97,28 +96,33 @@
             </tbody>
           </table>
         </div>
-        <div class="col-12 col-lg-6">
+        
+        <div class="col-12 col-md-6 d-none d-md-block">
           <form action="" class="validation" novalidate>
-            <div class="form-group">
-            <h4>Reservation Form</h4>
-            <div class="form-group form-row">
-              <div class="col">
+            <div class="form-row mt-4">
+              <h4>Reservation Form</h4>
+            </div>
+            <div class="form-row">
+              <div class="form-group col col-md-4">
                 <label for="nameInput">Name</label>
                 <input type="text" class="form-control" id="nameInput" placeholder="Full Name" required>
               </div>
-              <div class="col">
+              <div class="form-group col col-md-3">
                 <label for="phoneInput">Telephone</label>
                 <input type="text" class="form-control" id="phoneInput" placeholder="(xxx-xxx-xxxx) " required>
               </div>
-              <div class="col">
+              <div class="form-group col col-md-4">
                 <label for="emailInput">Email</label>
                 <input type="text" class="form-control" id="emailInput" placeholder="ex. name@gmail.com" required>
               </div>
-              <div class="col">
+            </div>
+            <hr class="d-sm-block d-none">
+            <div class="form-row">
+              <div class="form-group col col-md-5 col-sm-4">
                 <label for="calendarInput">Event Date</label>
                 <input type="date" class="form-control" id="calendarInput" paceholder="">
               </div>
-              <div class="col">
+              <div class="form-group col-md-6 col-sm-4">
                 <label for="timeInput">Time-Frame</label>
                 <select class="form-control" id="timeInput">
                   <option value="">Breakfast/Brunch (8:00am/10:30am - 1:30pm)</option>
@@ -127,35 +131,214 @@
                   <option value="">All-Day Events (5+ hours)</option>
                   <option value=""> Other </option>
                 </select>
-                <div class="col">
-                  <div class="form-check">
-                    <label for="eventType">
-                      Event Type
-                    </label>
+              </div>
+            </div>
+            <br>
+            <div class="form-row">
+              <fieldset class="form-group col-5">
+                <legend class="col">
+                  Event Type
+                </legend>
+                <div class="form-check col">
+                  <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio1" value="option1" checked>
+                  <label for="typeRadio1" class="form-check-label">
+                    Private Event
+                  </label>
+                </div>
+                <div class="form-check col">
+                  <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio2" value="option2">
+                  <label for="typeRadio2" class="form-check-label">
+                    Corporate Function
+                  </label>
+                </div>
+                <div class="form-check col">
+                  <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio3" value="option3">
+                  <label for="typeRadio3" class="form-check-label">
+                    Wedding
+                  </label>
+                </div>
+                <div class="form-check col">
+                  <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio4" value="option4">
+                  <label for="typeRadio4" class="form-check-label">
+                    Other Event
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset class="form-group col-6">
+                <legend class="col">
+                  Extras & Add-ons
+                </legend>
+                <div class="form-check col">
+                  <input type="checkbox" class="form-check-input" id="extraCheckbox1">
+                  <label for="#extraCheckbox1" class="form-check-label">
+                    Vegetarian Option(s)
+                  </label>
+                </div>
+                <div class="form-check col">
+                  <input type="checkbox" class="form-check-input" id="extraCheckbox2">
+                  <label for="#extraCheckbox2" class="form-check-label">
+                    Decorative Setup
+                  </label>
+                </div>
+                <div class="form-check col">
+                  <input type="checkbox" class="form-check-input" id="extraCheckbox3">
+                  <label for="#extraCheckbox3" class="form-check-label">
+                    Open Bar
+                  </label>
+                </div>
+                <div class="form-check col">
+                  <input type="checkbox" class="form-check-input" id="extraCheckbox4">
+                  <label for="#extraCheckbox4" class="form-check-label">
+                    Specialty Items/Ingredients
+                  </label>
+                </div>
+              </fieldset>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-8">
+                <label for="#comments">
+                  Comments
+                </label>
+                <textarea name="comments" id="comments" cols="30" rows="4" class="form-control">
+                </textarea>
+              </div>
+            </div>
+            <div class="form-row">
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row d-block d-md-none mt-4">
+        <div class="col d-flex justify-content-center">
+          <button class="btn btn-success btn-lg" id="modalButton" data-toggle="modal" data-target="#reserveModal">
+            Reservation Form
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal fade" id="reserveModal" aria-labelledby="reserveModal" aria-hidden="true" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1>Reservation Form</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><b>&times;</b></span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="validation" novalidate>
+              <div class="form-row">
+                <div class="form-group col col-md-4">
+                  <label for="nameInput">Name</label>
+                  <input type="text" class="form-control" id="nameInput" placeholder="Full Name" required>
+                </div>
+                <div class="form-group col col-md-3">
+                  <label for="phoneInput">Telephone</label>
+                  <input type="text" class="form-control" id="phoneInput" placeholder="(xxx-xxx-xxxx) " required>
+                </div>
+                <div class="form-group col col-md-4">
+                  <label for="emailInput">Email</label>
+                  <input type="text" class="form-control" id="emailInput" placeholder="ex. name@gmail.com" required>
+                </div>
+              </div>
+              <hr class="d-sm-block d-none">
+              <div class="form-row">
+                <div class="form-group col col-md-5 col-sm-4">
+                  <label for="calendarInput">Event Date</label>
+                  <input type="date" class="form-control" id="calendarInput" paceholder="">
+                </div>
+                <div class="form-group col-md-6 col-sm-4">
+                  <label for="timeInput">Time-Frame</label>
+                  <select class="form-control" id="timeInput">
+                    <option value="">Breakfast/Brunch (8:00am/10:30am - 1:30pm)</option>
+                    <option value="">Lunch (12:00pm - 2:00pm)</option>
+                    <option value="">Dinner (4:00pm - 10:00pm)</option>
+                    <option value="">All-Day Events (5+ hours)</option>
+                    <option value=""> Other </option>
+                  </select>
+                </div>
+              </div>
+              <br>
+              <div class="form-row">
+                <fieldset class="form-group col-5">
+                  <legend class="col">
+                    Event Type
+                  </legend>
+                  <div class="form-check col">
                     <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio1" value="option1" checked>
                     <label for="typeRadio1" class="form-check-label">
                       Private Event
                     </label>
+                  </div>
+                  <div class="form-check col">
                     <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio2" value="option2">
                     <label for="typeRadio2" class="form-check-label">
                       Corporate Function
                     </label>
+                  </div>
+                  <div class="form-check col">
                     <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio3" value="option3">
                     <label for="typeRadio3" class="form-check-label">
                       Wedding
                     </label>
+                  </div>
+                  <div class="form-check col">
                     <input type="radio" class="form-check-input" name="typeRadio" id="typeRadio4" value="option4">
                     <label for="typeRadio4" class="form-check-label">
                       Other Event
                     </label>
                   </div>
+                </fieldset>
+                <fieldset class="form-group col-6">
+                  <legend class="col">
+                    Extras & Add-ons
+                  </legend>
+                  <div class="form-check col">
+                    <input type="checkbox" class="form-check-input" id="extraCheckbox1">
+                    <label for="#extraCheckbox1" class="form-check-label">
+                      Vegetarian Option(s)
+                    </label>
+                  </div>
+                  <div class="form-check col">
+                    <input type="checkbox" class="form-check-input" id="extraCheckbox2">
+                    <label for="#extraCheckbox2" class="form-check-label">
+                      Decorative Setup
+                    </label>
+                  </div>
+                  <div class="form-check col">
+                    <input type="checkbox" class="form-check-input" id="extraCheckbox3">
+                    <label for="#extraCheckbox3" class="form-check-label">
+                      Open Bar
+                    </label>
+                  </div>
+                  <div class="form-check col">
+                    <input type="checkbox" class="form-check-input" id="extraCheckbox4">
+                    <label for="#extraCheckbox4" class="form-check-label">
+                      Specialty Items/Ingredients
+                    </label>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-8">
+                  <label for="#comments">
+                    Comments
+                  </label>
+                  <textarea name="comments" id="comments" cols="30" rows="4" class="form-control">
+                  </textarea>
                 </div>
               </div>
-            </div>
-          </form>
+              <div class="form-row">
+                <button type="submit" class="btn btn-primary">Send</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <footer class="site-footer">
       <div class="container my-auto;">
