@@ -11,8 +11,7 @@
       crossorigin="anonymous"
     />
     
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Dancing+Script:wght@500;600&family=Great+Vibes&family=Parisienne&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Dancing+Script:wght@600&family=Great+Vibes&family=Parisienne&family=Varela+Round&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="portfolioStyles.css" />
 
@@ -58,17 +57,17 @@
                 <div class="carousel-item active">
                   <div class="card carousel-card mx-auto d-block bg bg-dark border border-dark">
                     <img src="Not committed/images/carousel1catering.jpg" alt="Menus Page" class="card-img-top img-fluid max-width: 100% height: auto img-thumbnail bg bg-dark border border-dark">
-                    <div class="carousel-caption col-7 mx-auto">
-                      <h5 class="bg bg-dark rounded-lg my-1 py-2 px-1"><a class="pageLink" href="menu.html">Appetizer & Main Menu</a></h5>
-                      <p class="bg bg-secondary rounded my-1 pb-1">View our Award-Winning Offerings</p>
+                    <div class="carousel-caption mx-auto" id="mainsCaption">
+                      <h5 class="rounded-lg my-1 py-2 px-1"><a class="pageLink" href="menu.html">Appetizer & Main Menu</a></h5>
+                      <p class="rounded my-1 pb-1">View our Award-Winning Offerings</p>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div class="card carousel-card mx-auto d-block bg bg-dark">
                     <img src="Not committed/images/carousel2jumbocheers.jpg" alt="Menus Page" class="card-img-top img-fluid max-width: 100% height: auto img-thumbnail bg bg-dark border border-dark">
-                    <div class="carousel-caption" id="beverageImage">
-                      <h5 class="rounded my-1"><a class="pageLink" href="menus.html">Beverage Menus</a></h5>
+                    <div class="carousel-caption" id="beveragesCaption">
+                      <h2 class="rounded my-1"><a class="pageLink" href="menus.html">Beverage Menus</a></h2>
                       <p class="rounded mx-1 px-6">Lavish in Style</p>
                     </div>
                   </div>
@@ -87,11 +86,13 @@
           <div class="media my-3 ml-3">
             <a href="gallery.html">
               <img class="rounded-pill border border-0 border-light mr-3" id="eventsImage"  src="Not committed/images/wedding.jpg" class="mr-3" alt="Wedding Day">
-              <div class="media-body">
-                <h5 class="mt-0"><a href="gallery.html">Events Gallery</a></h5>
-                <p>View a photo gallery of exquisite past events</p>
+              <div class="media-body" id="weddingEvents">
+                <h6 class="mt-0"><a href="gallery.html">Events Gallery</a></h6>
+                <div class="d-block d-md-none">
+                  <h3>See what makes our business stand out among the rest.</h3>
+                </div>
                 <div class="d-none d-md-block">
-                  <p>We provide products and services for a multitude of event types including:</p>
+                  <h3>We provide products and services for a multitude of event types including:</h3>
                   <ul id="eventTypes">
                     <li>Weddings</li>
                     <li>Corporate Events</li>
@@ -114,10 +115,10 @@
       <div class="row align-items-center">
         <div class="jumboHome mx-auto mt-4 col-sm-11 col-md-8 col-lg-7 col-xl-6">
           <div class="jumbotron rounded-lg mx-auto" id="reserveHeader">
-            <h1 class="display-4">Reservations</h1>
-            <p class="lead">Make a reservation with us today!</p>
+            <h2 class="display-4">Reservations</h2>
+            <h6 class="lead">Make a reservation with us today!</h6>
             <hr class="my-4">
-            <p>Check our calendar of events to see our availability</p>
+            <p>Check our calendar of events to see availability</p>
             <a class="btn btn-success btn-lg" href="reserve.html" role="button">Reservations</a>
           </div>
         </div>
@@ -125,8 +126,8 @@
       <div class="row">
         <div class="jumboHome mx-auto col col-sm-11 col-md-8 col-lg-7 col-xl-6">
           <div class="jumbotron bg bg-secondary rounded-lg mx-auto">
-            <h1 class="display-4">We're here</h1>
-            <p class="lead">We are available to communicate via phone, email, or below with our contact form.</p>
+            <h2 class="display-4">We're here</h2>
+            <p class="lead">Communicate via phone, email, or below with our contact form.</p>
             <a class="btn btn-warning btn-lg" href="contact.html" role="button">Contact Us</a>
           </div>
         </div>
@@ -141,7 +142,7 @@
     >
     <div id="aboutBg" class="row row-content h-100 align-items-center" >
       <div class="col-10 col-sm-8 col-lg-5 mx-auto p-4 rounded" id="aboutText">
-        <h1>About Holden's Catering Co.</h1>
+        <h2>About Us</h2>
         <p> Built brick-by-brick, our company offers exemplary services beyond the scope of ordinary. Elegance embodied by quality in all aspects of the industry reflects our goal of providing unforgettable occassions. Eye appealing presentaion & unmatched flavor profiles streamlined in flawless fashion characterizes our mission: to match quality of experience to the magnitidue of each significant gathering of individuals with common intentions in mind.</p>
       </div>
     </div>
@@ -151,7 +152,7 @@
       <div class="container my-auto;">
         <div class="row row-footer">
           <div class="col-5 col-md-5 text address" style="margin-top: 15px;">
-            <h6>How to reach us</h6>
+            <h3>How to reach us</h3>
             <p><i>Address:</i> 18 Kainehe St.</br>Kailua, Hawai'i 96734</br>
           <i>Phone:</i> 808-432-8891</br>
           <i>Hours of Operation:</i></br> Monday - Saturday / 10:00am - 6:00pm</p></br>
@@ -167,7 +168,7 @@
           </div>
           <!-- careers page -->
           <div class="col-3 col-md-3 text careers" style="margin-top:20px;">
-            <h4>Join our Crew!</h4>
+            <h3>Join our Crew!</h3>
             <p>Visit us at our <a href="">careers</a> page for more information.</p>
           </div>
         </div>

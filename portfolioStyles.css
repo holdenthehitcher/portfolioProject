@@ -22,23 +22,41 @@
   background-image: url("Not committed/images/islandcanoe.jpg"); }
 
 .navbar {
-  background-image: linear-gradient(to right, #131212, #700770); }
+  background-image: linear-gradient(to right, rgba(1, 8, 2, 0.952), #700770); }
 
-h1,
-h5 {
+h1 {
   font-family: "Dancing Script", cursive;
   font-size: 37px;
   color: #33ac29; }
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 52px;
+  color: #33ac29; }
+
+h3 {
+  font-family: 'Courgette', cursive;
+  color: #33ac29;
+  font-size: 25px; }
+
+h4 {
+  color: #700770; }
+
+h6 {
+  color: #700770;
+  font-size: 30px;
+  font-family: 'Parisienne', cursive; }
 
 li > a,
 #eventTypes {
   font-family: "Caveat", cursive;
   font-size: 25px;
-  color: #bda520; }
+  color: #c0a114; }
 
-.jumbotron p {
-  font-family: 'Courgette', cursive;
-  color: #bda520; }
+p {
+  font-family: 'Varela Round', cursive;
+  color: #c0a114;
+  font-size: 18px; }
 
 body,
 html {
@@ -47,27 +65,66 @@ html {
 a {
   color: #33ac29; }
   a:hover {
-    color: #bda520;
+    color: #c0a114;
     text-decoration: none;
     opacity: 0.8; }
 
 .pageLink {
   opacity: 0.8; }
 
-#beverageImage h5,
-#beverageImage p {
-  background-color: rgba(255, 254, 253, 0.829); }
+#mainsCaption h5 {
+  background-color: rgba(224, 216, 216, 0.856);
+  font-family: "Dancing Script", cursive;
+  font-size: 50px; }
+  #mainsCaption h5 a {
+    color: #398d30; }
+
+#mainsCaption p {
+  background-color: rgba(255, 197, 176, 0.877);
+  font-family: 'Parisienne', cursive;
+  color: #700770;
+  font-size: 23px; }
+
+#beveragesCaption h2 {
+  background-color: rgba(41, 37, 37, 0.877); }
+
+#beveragesCaption p {
+  background-color: rgba(41, 37, 37, 0.692);
+  font-size: 35px;
+  color: rgba(228, 222, 222, 0.863);
+  font-family: 'Parisienne', cursive; }
 
 #eventsImage {
   opacity: 0.95; }
   #eventsImage:hover {
     opacity: 1; }
 
+#weddingEvents h6 a {
+  font-size: 40px;
+  color: rgba(228, 222, 222, 0.863); }
+
+#weddingEvents h3 {
+  font-size: 24px;
+  color: #d3b323; }
+
+#weddingEvents .d-none p {
+  font-size: 19px; }
+
+#weddingEvents .d-none ul li {
+  color: #d3b323;
+  font-size: 27px; }
+
 .jumboHome {
   height: 40%; }
 
+#reserveHeader h6 {
+  font-size: 28px; }
+
+#reserveHeader p {
+  color: #c0a114; }
+
 #aboutText {
-  background-color: rgba(66, 12, 12, 0.527); }
+  background-color: rgba(56, 5, 5, 0.671); }
 
 .text {
   text-align: center; }
@@ -126,10 +183,8 @@ th img {
       text-align: center;
       list-style-type: none;
       margin-top: 20px; }
-      #overlaySize #overlayBackground #navOverlay .overlayItems li h1 {
-        font-size: 55px; }
-      #overlaySize #overlayBackground #navOverlay .overlayItems li a {
-        font-size: 45px; }
+    #overlaySize #overlayBackground #navOverlay .overlayItems a {
+      font-size: 43px; }
 
 footer {
   background-color: beige;

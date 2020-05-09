@@ -1,6 +1,10 @@
 $main-color: #33ac29;
-$secondary-color: #bda520;
-$theme-color: rgb(112, 7, 112);
+$main-dark:#398d30; 
+$secondary-color: #c0a114;
+$second-light: #d3b323;
+$third-color: rgb(112, 7, 112);
+$light-color: rgba(228, 222, 222, 0.863);
+
 
 
 .parallax-window {
@@ -31,14 +35,38 @@ $theme-color: rgb(112, 7, 112);
 }
 
 .navbar {
-  background-image: linear-gradient(to right, rgb(19, 18, 18), $theme-color);
+  background-image: linear-gradient(to right, rgba(1, 8, 2, 0.952), $third-color);
 }
 
-h1,
-h5 {
+h1 {
   font-family: "Dancing Script", cursive;
   font-size: 37px;
   color: $main-color;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 52px;
+  color: $main-color;
+}
+
+h3 {
+  font-family: 'Courgette', cursive;
+  color: $main-color;
+  font-size: 25px;
+}
+
+h4 {
+  color: $third-color;
+}
+
+
+
+
+h6 {
+  color: $third-color;
+  font-size: 30px;
+  font-family: 'Parisienne', cursive;
 }
 
 li > a,
@@ -48,12 +76,12 @@ li > a,
   color: $secondary-color;
 }
 
-.jumbotron {
-  p {
-    font-family: 'Courgette', cursive;
-    color: $secondary-color;
-  }
+p {
+  font-family: 'Varela Round', cursive;
+  color: $secondary-color;
+  font-size: 18px;
 }
+
 
 
 
@@ -75,10 +103,33 @@ a {
   opacity: 0.8;
 }
 
-#beverageImage {
-  h5,
+#mainsCaption {
+  h5 {
+    background-color: rgba(224, 216, 216, 0.856);
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    a {
+      color: $main-dark;
+    }
+  }
   p {
-    background-color: rgba(255, 254, 253, 0.829);
+    background-color: rgba(255, 197, 176, 0.877);
+    font-family: 'Parisienne', cursive;
+    color: $third-color;
+    font-size: 23px;
+    
+  }
+}
+
+#beveragesCaption {
+  h2 {
+    background-color: rgba(41, 37, 37, 0.877);
+  }
+  p {
+    background-color: rgba(41, 37, 37, 0.692);
+    font-size: 35px;
+    color: $light-color;
+    font-family: 'Parisienne', cursive;
   }
 }
 
@@ -89,12 +140,47 @@ a {
   }
 }
 
+#weddingEvents {
+  h6 {
+    a { 
+      font-size: 40px;
+      color: $light-color;
+    }
+  }
+  h3 {
+    font-size: 24px;
+    color: $second-light;
+  }
+  .d-none {
+    p {
+      font-size: 19px;
+    }
+    ul {
+      li {
+      color: $second-light;
+      font-size: 27px;
+      }
+    }
+  }
+}
+
+
+
 .jumboHome {
   height: 40%;
 }
 
+#reserveHeader {
+  h6 {
+    font-size: 28px;
+  }
+  p {
+    color: $secondary-color
+  }
+}
+
 #aboutText {
-  background-color: rgba(66, 12, 12, 0.527);
+  background-color: rgba(56, 5, 5, 0.671);
 }
 
 .text {
@@ -175,20 +261,15 @@ th {
           text-align: center;
           list-style-type:none;
           margin-top: 20px;
-          h1 {
-            font-size: 55px;
           }
           a {
-            font-size: 45px;
+            font-size: 43px;
           }
         }
       }
-      .socialModal {
-        
-      }
     }
   }
-}
+
 
 
 
