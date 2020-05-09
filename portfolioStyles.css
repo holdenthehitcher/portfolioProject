@@ -77,7 +77,7 @@ a {
   font-family: "Dancing Script", cursive;
   font-size: 50px; }
   #mainsCaption h5 a {
-    color: #398d30; }
+    color: #2f7a27; }
 
 #mainsCaption p {
   background-color: rgba(255, 197, 176, 0.877);
@@ -91,7 +91,7 @@ a {
 #beveragesCaption p {
   background-color: rgba(41, 37, 37, 0.692);
   font-size: 35px;
-  color: rgba(228, 222, 222, 0.863);
+  color: rgba(228, 222, 222, 0.897);
   font-family: 'Parisienne', cursive; }
 
 #eventsImage {
@@ -100,8 +100,8 @@ a {
     opacity: 1; }
 
 #weddingEvents h6 a {
-  font-size: 40px;
-  color: rgba(228, 222, 222, 0.863); }
+  font-size: 44px;
+  color: rgba(228, 222, 222, 0.897); }
 
 #weddingEvents h3 {
   font-size: 24px;
@@ -117,14 +117,18 @@ a {
 .jumboHome {
   height: 40%; }
 
-#reserveHeader h6 {
-  font-size: 28px; }
+#reserveHeader {
+  background-color: rgba(228, 222, 222, 0.897); }
+  #reserveHeader h6 {
+    font-size: 28px; }
+  #reserveHeader p {
+    color: #c0a114; }
 
-#reserveHeader p {
-  color: #c0a114; }
+#contactHeader {
+  background-color: rgba(100, 55, 100, 0.822); }
 
 #aboutText {
-  background-color: rgba(56, 5, 5, 0.671); }
+  background-color: rgba(49, 9, 9, 0.726); }
 
 .text {
   text-align: center; }

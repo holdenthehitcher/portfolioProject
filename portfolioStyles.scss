@@ -1,9 +1,9 @@
 $main-color: #33ac29;
-$main-dark:#398d30; 
+$main-dark:#2f7a27; 
 $secondary-color: #c0a114;
 $second-light: #d3b323;
 $third-color: rgb(112, 7, 112);
-$light-color: rgba(228, 222, 222, 0.863);
+$light-color: rgba(228, 222, 222, 0.897);
 
 
 
@@ -143,7 +143,7 @@ a {
 #weddingEvents {
   h6 {
     a { 
-      font-size: 40px;
+      font-size: 44px;
       color: $light-color;
     }
   }
@@ -164,8 +164,6 @@ a {
   }
 }
 
-
-
 .jumboHome {
   height: 40%;
 }
@@ -177,10 +175,16 @@ a {
   p {
     color: $secondary-color
   }
+  background-color: $light-color;
+}
+
+#contactHeader {
+  background-color: rgba(100, 55, 100, 0.822);;
+  
 }
 
 #aboutText {
-  background-color: rgba(56, 5, 5, 0.671);
+  background-color: rgba(49, 9, 9, 0.726);
 }
 
 .text {
