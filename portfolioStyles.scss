@@ -1,5 +1,6 @@
 $main-color: #33ac29;
 $secondary-color: #bda520;
+$theme-color: rgb(112, 7, 112);
 
 
 .parallax-window {
@@ -30,7 +31,7 @@ $secondary-color: #bda520;
 }
 
 .navbar {
-  background-image: linear-gradient(to right, rgb(19, 18, 18), rgb(112, 7, 112));
+  background-image: linear-gradient(to right, rgb(19, 18, 18), $theme-color);
 }
 
 h1,
@@ -158,37 +159,37 @@ th {
   overflow-y: auto;
 }
 
-
-
-.navbar-toggle {
-  float: left !important;
-  margin-left: 15px;
-  margin-right: 0;
-}
-
-.modal-nav-content {
+#overlaySize {
   width: 100%;
-  height: auto;
+  height: 100vh;
+  #overlayBackground {
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(53, 2, 53, 0.74);
+    #navOverlay{
+      .close {
+        font-size: 50px;
+      }
+      .overlayItems {
+        li {
+          text-align: center;
+          list-style-type:none;
+          margin-top: 20px;
+          h1 {
+            font-size: 55px;
+          }
+          a {
+            font-size: 45px;
+          }
+        }
+      }
+      .socialModal {
+        
+      }
+    }
+  }
 }
 
-.modal-nav-body {
-  margin-top: 100px; 
-}
-
-.modal-nav-body ul {
-  list-style-type: none;
-  color: white;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.modal-nav-body ul li {
-  text-align: center;
-  font-size: 130%;
-  padding: 8px;
-  text-transform: uppercase;
-}
 
 
 

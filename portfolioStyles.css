@@ -113,30 +113,23 @@ th img {
 #tableOverflow {
   overflow-y: auto; }
 
-.navbar-toggle {
-  float: left !important;
-  margin-left: 15px;
-  margin-right: 0; }
-
-.modal-nav-content {
+#overlaySize {
   width: 100%;
-  height: auto; }
-
-.modal-nav-body {
-  margin-top: 100px; }
-
-.modal-nav-body ul {
-  list-style-type: none;
-  color: white;
-  margin: 0;
-  padding: 0;
-  width: 100%; }
-
-.modal-nav-body ul li {
-  text-align: center;
-  font-size: 130%;
-  padding: 8px;
-  text-transform: uppercase; }
+  height: 100vh; }
+  #overlaySize #overlayBackground {
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(53, 2, 53, 0.74); }
+    #overlaySize #overlayBackground #navOverlay .close {
+      font-size: 50px; }
+    #overlaySize #overlayBackground #navOverlay .overlayItems li {
+      text-align: center;
+      list-style-type: none;
+      margin-top: 20px; }
+      #overlaySize #overlayBackground #navOverlay .overlayItems li h1 {
+        font-size: 55px; }
+      #overlaySize #overlayBackground #navOverlay .overlayItems li a {
+        font-size: 45px; }
 
 footer {
   background-color: beige;

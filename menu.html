@@ -53,29 +53,42 @@
     </nav>
 
     <div class="modal fade" id="navModal" tabindex="-1" role="dialog" aria-labelledby="navModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
+      <div class="modal-dialog" id="overlaySize" role="document">
+        <div class="modal-content" id="overlayBackground">
+          <div class="modal-body" id="navOverlay">
             <button type="button" class="close" aria-label="Close" data-dismiss="modal">
               <span aria-hidden="true">&times;</span>
             </button>
-            <ul class="navOverlay">
-              <li class="">
-                <a href="home.html">Home</a>
-              </li>
-              <li class="">
-                <a href="#" data-dismiss="modal">Menu</a>
-              </li>
-              <li class="">
-                <a href="gallery.html">Gallery</a>
-              </li>
-              <li class="">
-                <a href="reserve.html">Reserve</a>
-              </li>
-              <li class="">
-                <a href="contact.html">Contact</a>
-              </li>
-            </ul>
+            <div class="container">              
+              <ul class="overlayItems mr-5 mt-5 text-center">
+                <li>
+                  <h1>Holden's Catering Company</h1>
+                </li>
+                <li class="nav-modal-item">
+                  <a href="home.html">Home</a>
+                </li>
+                <li class="nav-modal-item">
+                  <a href="#" data-dismiss="modal">Menu</a>
+                </li>
+                <li class="nav-modal-item">
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-modal-item">
+                  <a href="reserve.html">Reserve</a>
+                </li>
+                <li class="nav-modal-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="row">
+                <div class="col mt-2 d-flex justify-content-center">
+                  <a type="button" href="#" class="mr-2 ml-2 btn btn-social-icon btn-youtube"><i class="fa fa-youtube"></i></a>
+                  <a type="button" href="#" class="mr-2 ml-2 btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
+                  <a type="button" href="#" class="mr-2 ml-2 btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                  <a type="button" href="#" class="mr-2 ml-2 btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
           </div>      
         </div>
       </div>
