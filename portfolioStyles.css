@@ -168,6 +168,16 @@ a {
   align-items: center;
   justify-content: center; }
 
+#galleryHeader {
+  font-size: 60px;
+  color: #700770;
+  background-color: #d3b323be; }
+
+.carousel-caption h6 {
+  background-color: rgba(75, 15, 75, 0.705);
+  font-size: 35px;
+  color: #d3b323; }
+
 .modalImg {
   height: 315px;
   width: 450px; }
@@ -178,6 +188,13 @@ th img {
 
 #tableOverflow {
   overflow-y: auto; }
+  #tableOverflow span h2 {
+    font-size: 70px;
+    color: #2f7a27; }
+
+.reservationFont {
+  font-size: 55px;
+  font-family: Parisienne, cursive; }
 
 #overlaySize {
   width: 100%;
@@ -272,7 +289,10 @@ footer {
   .no-gutters {
     margin: 0;
     padding: 0;
-    width: 390px; }
+    width: 370px;
+    height: 280px; }
+  .lightboxImgT {
+    z-index: 0; }
   #reserveBg {
     min-height: 1400px;
     max-height: 1400px; }

@@ -231,6 +231,20 @@ a {
   justify-content: center;
 }
 
+#galleryHeader {
+  font-size: 60px;
+  color: $third-color;
+  background-color: #d3b323be;
+}
+
+.carousel-caption {
+  h6 {
+    background-color: rgba(75, 15, 75, 0.705);
+    font-size: 35px;
+    color:$secondary-light;
+  }
+}
+
 .modalImg {
   height: 315px;
   width: 450px;
@@ -245,6 +259,17 @@ th {
 
 #tableOverflow {
   overflow-y: auto;
+  span {
+    h2 {
+      font-size: 70px;
+      color: $main-dark
+    }
+  }
+}
+
+.reservationFont {
+  font-size: 55px;
+  font-family: Parisienne, cursive;
 }
 
 #overlaySize {
@@ -378,7 +403,12 @@ footer {
   .no-gutters {
     margin: 0;
     padding: 0;
-    width: 390px;
+    width: 370px;
+    height: 280px;
+  }
+
+  .lightboxImgT {
+    z-index: 0;
   }
 
   #reserveBg {
