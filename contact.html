@@ -94,15 +94,16 @@
       data-parallax="scroll"
       data-image-src="Not committed/images/cakepops.jpg"
     >
-      <div class="row ml-1">
+    <div class="container ml-2">
+      <div class="row">
         <div class="col-7 col-sm-6 col-md-5 col-lg-4">      
           <form class="validation">
             <div class="form-row">
-              <h1 class="ml-3">Contact Us</h1>
+              <h6 class="ml-2 mt-2" id="contactFont">Contact Us</h6>
             </div>
             <div class="form-row">
               <div class="form-group col">
-                <label for="nameContact">
+                <label for="nameContact" class="formLabels">
                   Full Name
                 </label>
                 <input type="text" id="nameContact" class="form-control" placeholder="Name" required>
@@ -110,7 +111,7 @@
             </div>
             <div class="form-row">
               <div class="form-group col">
-                <label for="phoneContact">
+                <label for="phoneContact" class="formLabels">
                   Phone Number
                 </label>
                 <input type="text" id="phoneContact" class="form-control" placeholder="xxx-xxx-xxxx" required>
@@ -118,29 +119,30 @@
             </div>
             <div class="form-row">
               <div class="form-group col">
-                <label for="emailContact">
+                <label for="emailContact" class="formLabels">
                   Email
                 </label>
                 <input type="text" id="emailContact" class="form-control" placeholder="@gmail.com" required>
               </div>
             </div>
-            <div class="form-row">
+            <div class="form-row ml-2">
               <div class="form-group">
                 <label for="comment">
-                  <h4>Leave a comment below</h4>
+                  <h3>Leave a comment:</h3>
                 </label>
-                <textarea name="comment" id="#commentContact" rows="5" class="form-control"></textarea>
+                <textarea name="comment" id="#commentContact" rows="5" cols="30" class="form-control"></textarea>
               </div>
             </div>
-            <button class="btn btn-warning"><b>Send</b></button>
+            <button class="btn btn-warning ml-3"><b>Send</b></button>
           </form>
         </div>
       </div>
       <div class="row">
-        <div class="col-6 mt-4 ml-3">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.898097159018!2d-157.74525!3d21.3939167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0014db15287cb1%3A0x29320ff0bcff54af!2s18%20Kainehe%20St%2C%20Kailua%2C%20HI%2096734!5e0!3m2!1sen!2sus!4v1588933344056!5m2!1sen!2sus" frameborder="0" aria-hidden="false" tabindex="0"></iframe>
+        <div class="col-6 mt-4 ml-1">
+          <iframe class="img-thumbnail rounded-pill" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.898097159018!2d-157.74525!3d21.3939167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0014db15287cb1%3A0x29320ff0bcff54af!2s18%20Kainehe%20St%2C%20Kailua%2C%20HI%2096734!5e0!3m2!1sen!2sus!4v1588933344056!5m2!1sen!2sus" frameborder="0" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
+    </div>
     </section>
 
     <footer class="site-footer">
