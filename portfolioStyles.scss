@@ -1,9 +1,9 @@
 $main-color: #33ac29;
 $main-dark:#2f7a27; 
 $secondary-color: #c0a114;
-$second-light: #d3b323;
+$secondary-light: #d3b323;
 $third-color: rgb(112, 7, 112);
-$light-color: rgba(228, 222, 222, 0.897);
+$light-color: rgba(228, 222, 222, 0.918);
 
 
 
@@ -60,9 +60,6 @@ h4 {
   color: $third-color;
 }
 
-
-
-
 h6 {
   color: $third-color;
   font-size: 30px;
@@ -81,9 +78,6 @@ p {
   color: $secondary-color;
   font-size: 18px;
 }
-
-
-
 
 body,
 html {
@@ -110,6 +104,10 @@ a {
     font-size: 50px;
     a {
       color: $main-dark;
+      &:hover {
+        color: $secondary-color;
+        text-decoration: none;
+      }
     }
   }
   p {
@@ -117,7 +115,6 @@ a {
     font-family: 'Parisienne', cursive;
     color: $third-color;
     font-size: 23px;
-    
   }
 }
 
@@ -134,10 +131,7 @@ a {
 }
 
 #eventsImage {
-  opacity: 0.95;
-  &:hover {
-    opacity: 1;
-  }
+  max-width: 330px;
 }
 
 #weddingEvents {
@@ -149,7 +143,7 @@ a {
   }
   h3 {
     font-size: 24px;
-    color: $second-light;
+    color: $secondary-light;
   }
   .d-none {
     p {
@@ -157,7 +151,7 @@ a {
     }
     ul {
       li {
-      color: $second-light;
+      color: $secondary-light;
       font-size: 27px;
       }
     }
@@ -168,19 +162,23 @@ a {
   height: 40%;
 }
 
+.jumbotron {
+  max-height: 380px;
+}
+
 #reserveHeader {
   h6 {
-    font-size: 28px;
+    font-size: 32px;
   }
   p {
-    color: $secondary-color
+    color: $secondary-color;
+    font-size: 22px;
   }
   background-color: $light-color;
 }
 
 #contactHeader {
-  background-color: rgba(100, 55, 100, 0.822);;
-  
+  background-color: rgba(77, 41, 77, 0.897);
 }
 
 #aboutText {
@@ -274,15 +272,19 @@ th {
     }
   }
 
-
-
-
-
-///////////// insert new style above ///////////////
-
 footer {
   background-color: beige;
   background-position: bottom 100%;
+}
+
+#footerText {
+  p {
+    font-size: 15px;
+    color: $main-dark;
+    i {
+      color: $secondary-color;
+    }
+  }
 }
 
 .fa {

@@ -78,6 +78,9 @@ a {
   font-size: 50px; }
   #mainsCaption h5 a {
     color: #2f7a27; }
+    #mainsCaption h5 a:hover {
+      color: #c0a114;
+      text-decoration: none; }
 
 #mainsCaption p {
   background-color: rgba(255, 197, 176, 0.877);
@@ -91,17 +94,15 @@ a {
 #beveragesCaption p {
   background-color: rgba(41, 37, 37, 0.692);
   font-size: 35px;
-  color: rgba(228, 222, 222, 0.897);
+  color: rgba(228, 222, 222, 0.918);
   font-family: 'Parisienne', cursive; }
 
 #eventsImage {
-  opacity: 0.95; }
-  #eventsImage:hover {
-    opacity: 1; }
+  max-width: 330px; }
 
 #weddingEvents h6 a {
   font-size: 44px;
-  color: rgba(228, 222, 222, 0.897); }
+  color: rgba(228, 222, 222, 0.918); }
 
 #weddingEvents h3 {
   font-size: 24px;
@@ -117,15 +118,19 @@ a {
 .jumboHome {
   height: 40%; }
 
+.jumbotron {
+  max-height: 380px; }
+
 #reserveHeader {
-  background-color: rgba(228, 222, 222, 0.897); }
+  background-color: rgba(228, 222, 222, 0.918); }
   #reserveHeader h6 {
-    font-size: 28px; }
+    font-size: 32px; }
   #reserveHeader p {
-    color: #c0a114; }
+    color: #c0a114;
+    font-size: 22px; }
 
 #contactHeader {
-  background-color: rgba(100, 55, 100, 0.822); }
+  background-color: rgba(77, 41, 77, 0.897); }
 
 #aboutText {
   background-color: rgba(49, 9, 9, 0.726); }
@@ -193,6 +198,12 @@ th img {
 footer {
   background-color: beige;
   background-position: bottom 100%; }
+
+#footerText p {
+  font-size: 15px;
+  color: #2f7a27; }
+  #footerText p i {
+    color: #c0a114; }
 
 .fa {
   font-size: 30px;
