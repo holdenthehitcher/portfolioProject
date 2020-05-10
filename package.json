@@ -4,9 +4,13 @@
   "description": "",
   "main": "portfolioJS.js",
   "scripts": {
+    "build": "npm run clean && npm run imagemin && npm run usemin",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin images/* -o dist/images",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss portfolioStyles.scss portfolioStyles.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin gallery.html -d dist --htmlmin -o dist/gallery.html && usemin home.html -d dist --htmlmin -o dist/home.html && usemin menu.html -d dist --htmlmin -o dist/menu.html && usemin reserve.html -d dist --htmlmin -o dist/reserve.html"
   },
   "repository": {
     "type": "git",
@@ -19,7 +23,10 @@
   },
   "homepage": "https://github.com/holdenthehitcher/portfolioProject#readme",
   "devDependencies": {
+    "imagemin-cli": "^3.0.0",
     "node-sass": "^4.14.0",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "rimraf": "^2.6.2",
+    "usemin-cli": "^0.5.1"
   }
 }
