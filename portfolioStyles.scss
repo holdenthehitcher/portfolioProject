@@ -131,7 +131,7 @@ a {
 }
 
 #eventsImage {
-  max-width: 330px;
+  max-width: 300px;
 }
 
 #weddingEvents {
@@ -142,17 +142,17 @@ a {
     }
   }
   h3 {
-    font-size: 24px;
+    font-size: 20px;
     color: $secondary-light;
   }
   .d-none {
     p {
-      font-size: 19px;
+      font-size: 20px;
     }
     ul {
       li {
       color: $secondary-light;
-      font-size: 27px;
+      font-size: 28px;
       }
     }
   }
@@ -384,6 +384,12 @@ footer {
   #reserveBg {
     min-height: 1400px;
     max-height: 1400px; 
+  }
+
+  h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 32px;
+    color: $main-color;
   }
 
 }

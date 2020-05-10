@@ -98,22 +98,22 @@ a {
   font-family: 'Parisienne', cursive; }
 
 #eventsImage {
-  max-width: 330px; }
+  max-width: 300px; }
 
 #weddingEvents h6 a {
   font-size: 44px;
   color: rgba(228, 222, 222, 0.918); }
 
 #weddingEvents h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #d3b323; }
 
 #weddingEvents .d-none p {
-  font-size: 19px; }
+  font-size: 20px; }
 
 #weddingEvents .d-none ul li {
   color: #d3b323;
-  font-size: 27px; }
+  font-size: 28px; }
 
 .jumboHome {
   height: 40%; }
@@ -275,7 +275,11 @@ footer {
     width: 390px; }
   #reserveBg {
     min-height: 1400px;
-    max-height: 1400px; } }
+    max-height: 1400px; }
+  h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 32px;
+    color: #33ac29; } }
 
 @media (min-width: 577px) and (max-width: 767px) {
   .carousel-card {
