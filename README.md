@@ -4,11 +4,12 @@ Web Page for Holden's Catering Company
 
 <b>To View</b>
 
-Download the following files and place them in the same folder:
+Download the zip file by clicking the green clone/download button on the Github page for portfolioProject/master.
 
-1. All 5 .html files
-2. 1 .css file
-3. images folder
+Unzip the files
 
 Click on any html file to open website at that page.
+
 The first page is "home.html".
+
+Hope you enjoy!
