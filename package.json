@@ -24,7 +24,7 @@
   "homepage": "https://github.com/holdenthehitcher/portfolioProject#readme",
   "devDependencies": {
     "imagemin-cli": "^3.0.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.3",
     "rimraf": "^2.6.2",
     "usemin-cli": "^0.5.1"
